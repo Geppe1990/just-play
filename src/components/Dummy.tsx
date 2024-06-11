@@ -38,7 +38,7 @@ const DummyFetchComponent: React.FC = () => {
 		<div>
 			<h1>Fetched Data</h1>
 			{/*<pre>{JSON.stringify(data, null, 2)}</pre>*/}
-			{data?.map((elm) => <div>{elm.title}</div>)}
+			{data?.map((elm) => <div key={elm.title}>{elm.title}</div>)}
 		</div>
 	)
 }

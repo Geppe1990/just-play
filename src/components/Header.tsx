@@ -6,12 +6,15 @@ const HeaderContainer = styled.header`
 	padding: 20px;
 	color: white;
 	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 `
 
 const Header: React.FC = () => {
 	return (
 		<HeaderContainer>
-			<h1>My React App</h1>
+			<h1>JustPlay</h1>
 		</HeaderContainer>
 	)
 }
