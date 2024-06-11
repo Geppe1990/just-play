@@ -5,6 +5,7 @@ import { store } from "./store"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Counter from "./components/Counter"
+import Dummy from "./components/Dummy.tsx"
 
 const Container = styled.div`
 	display: flex;
@@ -28,6 +29,7 @@ const App: React.FC = () => {
 						This is an example of a React application using Vite, Redux, Styled
 						Components, and TypeScript.
 					</p>
+					<Dummy />
 					<Counter />
 				</MainContent>
 				<Footer />
