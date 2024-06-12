@@ -4,10 +4,9 @@ import { Provider } from "react-redux"
 import { store } from "./store"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
-import Counter from "./components/Counter"
+// import Counter from "./components/Counter"
 // import Dummy from "./components/Dummy.tsx"
 import Game from "./components/Game.tsx"
-// import Game from "./components/Game.tsx"
 
 const Container = styled.div`
 	display: flex;
@@ -27,7 +26,7 @@ const App: React.FC = () => {
 				<Header />
 				<MainContent>
 					<Game />
-					<Counter />
+					{/*<Counter />*/}
 				</MainContent>
 				<Footer />
 			</Container>

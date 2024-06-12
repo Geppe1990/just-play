@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import SearchGame from "./SearchGame.tsx"
 
 const HeaderContainer = styled.header`
 	background-color: #282c34;
@@ -15,6 +16,7 @@ const Header: React.FC = () => {
 	return (
 		<HeaderContainer>
 			<h1>JustPlay</h1>
+			<SearchGame />
 		</HeaderContainer>
 	)
 }
